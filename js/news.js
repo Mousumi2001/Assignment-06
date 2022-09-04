@@ -65,3 +65,7 @@ const displayCard = cards => {
         cardContainer.appendChild(cardDiv);
     })
 }
+
+const modalDetails = cards => {
+    console.log(cards)
+}
