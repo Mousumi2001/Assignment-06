@@ -69,3 +69,5 @@ const displayCard = cards => {
 const modalDetails = cards => {
     console.log(cards)
 }
+
+loadCard();
