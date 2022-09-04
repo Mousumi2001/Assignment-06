@@ -22,3 +22,10 @@ const loadCard = () => {
         .then(res => res.json())
         .then(data => displayCard(data.data))
 }
+
+const displayCard = cards => {
+    const cardContainer = document.getElementById('card');
+    cards.forEach(card => {
+        // console.log(card)
+    })
+}
